@@ -2,42 +2,138 @@
 
 This repository contains the datasets, scripts, and outputs used in the study:
 
-**"Spatial modeling of hydrological deficit using machine learning and climatic data (1960–2024) in Northwestern Mexico."**
+"Spatial modeling of hydrological deficit using machine learning and climatic data (1960–2024) in Northwestern Mexico."
 
-The project analyzes hydrological deficit patterns using climate variables and machine learning models.
+The objective of this project is to analyze and model the spatial distribution of hydrological deficit using climatic data and machine learning techniques.
 
----
+------------------------------------------------------------
 
-## Study Area
+STUDY AREA
 
-Northwestern Mexico, including the states of:
+The study area corresponds to northwestern Mexico and includes the following states:
 
-- Sonora
-- Sinaloa
-- Baja California
-- Baja California Sur
+Sonora
+Sinaloa
+Baja California
+Baja California Sur
 
----
+These regions are characterized by arid and semi-arid climates with low precipitation and high potential evapotranspiration.
 
-## Data Sources
+------------------------------------------------------------
 
-Climate variables used:
+DATA SOURCES
 
-- Precipitation (PR)
-- Potential Evapotranspiration (ETP)
+The analysis uses the following climatic variables:
 
-Datasets:
+Precipitation (PR)
+Potential Evapotranspiration (ETP)
 
-- TerraClimate dataset
-- INEGI / CONABIO geographic data
+Data sources:
 
-Spatial resolution: ~4 km  
-Temporal period: 1960–2024
+TerraClimate dataset
+Geographic data from INEGI and CONABIO
 
----
+Spatial resolution: approximately 4 km  
+Temporal coverage: 1960–2024
 
-## Repository Structure
+------------------------------------------------------------
 
-## Contact
+REPOSITORY STRUCTURE
 
-For questions or collaborations, please contact the repository author.
+data/
+Contains raw and processed climate datasets.
+
+rasters/
+Generated spatial raster layers including mean precipitation, evapotranspiration, water balance, and hydrological deficit probability.
+
+scripts/
+Python scripts used for the complete workflow.
+
+figures/
+Figures used in the manuscript.
+
+outputs/
+Trained machine learning models and performance tables.
+
+docs/
+Additional documentation and workflow diagrams.
+
+------------------------------------------------------------
+
+METHODOLOGICAL WORKFLOW
+
+The workflow implemented in this repository includes the following steps:
+
+1. Climate data preprocessing
+2. Water balance calculation
+3. Hydrological deficit identification
+4. Dataset construction
+5. Machine learning model training
+6. Model evaluation
+7. SHAP interpretability analysis
+8. Spatial prediction of hydrological deficit probability
+
+------------------------------------------------------------
+
+MACHINE LEARNING MODELS
+
+Two machine learning algorithms were used:
+
+Random Forest (RF)
+Gradient Boosting (GB)
+
+Model performance was evaluated using:
+
+RMSE (Root Mean Square Error)
+MAE (Mean Absolute Error)
+R² (Coefficient of Determination)
+
+------------------------------------------------------------
+
+MAIN OUTPUTS
+
+The repository includes the following spatial outputs:
+
+PR_mean.tif
+ETP_mean.tif
+WB_mean.tif
+HD_probability.tif
+HD_frequency.tif
+
+These layers represent the spatial distribution of climatic conditions and hydrological deficit probability across northwestern Mexico.
+
+------------------------------------------------------------
+
+REPRODUCIBILITY
+
+All scripts required to reproduce the analysis are available in the scripts directory.
+
+The repository ensures full reproducibility of the workflow used to generate the results presented in the article.
+
+------------------------------------------------------------
+
+INSTALLATION
+
+Install the required Python libraries using:
+
+pip install -r requirements.txt
+
+------------------------------------------------------------
+
+DATA AND CODE AVAILABILITY
+
+All datasets, raster outputs, and Python scripts used in this study are publicly available in this repository to ensure reproducibility of the results.
+
+------------------------------------------------------------
+
+AUTHOR
+
+Lidia Yadira Pérez Aguilar
+
+Researcher in geospatial analysis, environmental data science, and machine learning applied to hydroclimatic systems.
+
+------------------------------------------------------------
+
+LICENSE
+
+This project is released under the MIT License.
