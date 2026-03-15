@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="es"><Esri><CreaDate>20260306</CreaDate><CreaTime>17212900</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="d:\program files (x86)\arcgis\desktop10.8\ArcToolbox\Toolboxes\Spatial Analyst Tools.tbx\ExtractMultiValuesToPoints" Date="20260306" Time="171725">ExtractMultiValuesToPoints Stress_prob "PR_mean.tif PR_mean;ETP_mean.tif ETP_mean;Balance_mean.tif Balance_me" NONE</Process></lineage></DataProperties></Esri></metadata>
