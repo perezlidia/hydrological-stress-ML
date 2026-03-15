@@ -79,14 +79,14 @@ MACHINE LEARNING MODELS
 
 Two machine learning algorithms were used:
 
-Random Forest (RF)
-Gradient Boosting (GB)
+-  Random Forest (RF)
+-  Gradient Boosting (GB)
 
 Model performance was evaluated using:
 
-RMSE (Root Mean Square Error)
-MAE (Mean Absolute Error)
-R² (Coefficient of Determination)
+-  RMSE (Root Mean Square Error)
+-  MAE (Mean Absolute Error)
+-  R² (Coefficient of Determination)
 
 ------------------------------------------------------------
 
@@ -94,11 +94,11 @@ MAIN OUTPUTS
 
 The repository includes the following spatial outputs:
 
-PR_mean.tif
-ETP_mean.tif
-WB_mean.tif
-HD_probability.tif
-HD_frequency.tif
+-  PR_mean.tif
+-  ETP_mean.tif
+-  WB_mean.tif
+-  HD_probability.tif
+-  HD_frequency.tif
 
 These layers represent the spatial distribution of climatic conditions and hydrological deficit probability across northwestern Mexico.
 
