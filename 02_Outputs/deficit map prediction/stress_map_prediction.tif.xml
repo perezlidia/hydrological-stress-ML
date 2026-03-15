@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="es"><Esri><CreaDate>20260309</CreaDate><CreaTime>10151000</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="d:\program files (x86)\arcgis\desktop10.8\ArcToolbox\Toolboxes\Spatial Analyst Tools.tbx\ExtractByMask" Date="20260309" Time="101510">ExtractByMask stress_map_prediction.tif Area_base D:\2026-ARTICULOS\IA-INDICE_SEQUIA\MODELO-ML\outputs\stress_map_prediction_clip.tif</Process></lineage></DataProperties></Esri></metadata>
