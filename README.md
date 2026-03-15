@@ -140,6 +140,7 @@ All datasets, raster outputs, and Python scripts used in this study are publicly
 ------------------------------------------------------------
 
 PROJECT TEAM
+
 -  Ramón Fernando López Osorio - ferrlop@uas.edu.mx
 -  Lidia Yadira Pérez Aguilar - lidiaperez@uas.edu.mx
 -  Roberto Bernal Guadiana - roberto.bernal@uas.edu.mx
