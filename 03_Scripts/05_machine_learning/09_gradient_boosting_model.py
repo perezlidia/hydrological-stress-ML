@@ -1,6 +1,6 @@
 # ======================================
 # MACHINE LEARNING - GRADIENT BOOSTING
-# Hydrological Stress Prediction
+# Hydrological Deficit Prediction
 # ======================================
 
 import pandas as pd
