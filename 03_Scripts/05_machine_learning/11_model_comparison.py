@@ -1,7 +1,7 @@
 # ======================================
 # MODEL COMPARISON
 # Random Forest vs Gradient Boosting
-# Hydrological Stress Prediction
+# Hydrological Deficit Prediction
 # ======================================
 
 import pandas as pd
