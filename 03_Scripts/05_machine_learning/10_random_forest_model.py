@@ -1,6 +1,6 @@
 # ======================================
 # MACHINE LEARNING - RANDOM FOREST
-# Hydrological Stress Prediction
+# Hydrological Deficit Prediction
 # ======================================
 
 import pandas as pd
