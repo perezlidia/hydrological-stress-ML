@@ -10,7 +10,7 @@ import geopandas as gpd
 # FIX PROJ CONFLICT (PostGIS vs Rasterio)
 # --------------------------------------------------
 
-os.environ["PROJ_LIB"] = r"C:\Users\Lidia\AppData\Roaming\Python\Python312\site-packages\pyproj\proj_dir\share\proj"
+os.environ["PROJ_LIB"] = r"Ruta/proj"
 
 
 # --------------------------------------------------
